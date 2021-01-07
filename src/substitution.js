@@ -36,7 +36,7 @@ function substitution(input = "", alphabet = "", encode = true) {
       }
     }
   }
-  // begin decoding function
+  //begin decoding function
   else {
     if (abcAlphaEqualizer(ABCs, alphabet) === true) {
       for (let i = 0; i < text.length; i++) {
@@ -51,5 +51,8 @@ function substitution(input = "", alphabet = "", encode = true) {
 
   return result;
 }
+
+substitution("jrufscpw", "xoyqmcgrukswaflnthd!pzibev", false);
+console.log(substitution("jrufscpw", "xoyqmcgrukswaflnthd!pzibev", false));
 
 module.exports = substitution;
