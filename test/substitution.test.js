@@ -71,7 +71,6 @@ describe("substitution", () => {
     expect(actual).to.be.eql(expected);
   });
 });
-
 // describe("substitution", () => {
 //   it("should be true that the alphabet contains all characters in the input, return false otherwise", () => {
 //     const actual = substitution(
